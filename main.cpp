@@ -18,7 +18,7 @@ int main(void)
     {
         input=getc(stdin);      // get char and put into variable input
         putc(input,stdout);     // send char to output buffer
-          if(input == 0x0d)     // if input is <RETURN>
+          if(input == 0x0d)     // if input is <ENTER>
           {
              putc(0x0a,stdout); // send <LF> to output buffer
           }
